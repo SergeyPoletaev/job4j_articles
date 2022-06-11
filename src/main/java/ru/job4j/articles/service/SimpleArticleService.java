@@ -11,9 +11,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class SimpleArticleService implements ArticleService {
-
     private static final Logger LOGGER = LoggerFactory.getLogger(SimpleArticleService.class.getSimpleName());
-
     private final ArticleGenerator articleGenerator;
 
     public SimpleArticleService(ArticleGenerator articleGenerator) {
